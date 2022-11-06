@@ -19,14 +19,14 @@ function contentSpaceWidth(){
 	
 	{
 		/*
-	if(screenWidth > 800){
-		return ((screenWidth - landscapeMenuBar)-15);
-	}
-	else{
-		return (screenWidth * 0.9);
-	}
-	
-	//*/
+		if(screenWidth > 800){
+			return ((screenWidth - landscapeMenuBar)-15);
+		}
+		else{
+			return (screenWidth * 0.9);
+		}
+		
+		//*/
 	}
 	
 	return screenWidth-20
@@ -41,16 +41,17 @@ export default function App() {
 			<View style={ PageLayouts.topBar}>
 			</View>
 			<View style={ PageLayouts.contentSpace}>
-				{/*
-				(useWindowDimensions().width > 800) &&
-				<View style={[ 
-					PageLayouts.menuBar,
-					{width: landscapeMenuBar}
-				]}>
-					<Text> Side Menu: </Text>
-					<Text>only available when screen is large enough </Text>
-				</View>
-				//*/
+				{
+					/*
+					(useWindowDimensions().width > 800) &&
+					<View style={[ 
+						PageLayouts.menuBar,
+						{width: landscapeMenuBar}
+					]}>
+						<Text> Side Menu: </Text>
+						<Text>only available when screen is large enough </Text>
+					</View>
+					//*/
 				}
 				<View style={[
 					PageLayouts.contentColumn, 
