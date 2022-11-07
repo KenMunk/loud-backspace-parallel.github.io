@@ -9,6 +9,7 @@ import PageLayouts from '@PageLayouts';
 
 //Importing project pages/tabs/content
 import RoommateFinder from './pages/RoommateFinder';
+import ProfileScreen from './pages/components/ProfilePage';
 
 
 const landscapeMenuBar = 250;
@@ -58,6 +59,7 @@ export default function App() {
 					{width: contentSpaceWidth()}
 				]}>
 					{<Text>Main Content</Text>}
+					{/*<ProfileScreen/>*/}
 					<RoommateFinder/>
 				</View>
 			</View>
