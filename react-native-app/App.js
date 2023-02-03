@@ -198,12 +198,12 @@ import React from "react";
 
 import { AuthContext} from './context';
 
-import DashBoardNavigation from './pages/DashBoardNavigation';
-import FinderNavigation from './pages/FinderNavigation';
-import ChatNavigation from './pages/ChatNavigation';
-import CalendarNavigation from './pages/CalendarNavigation';
-import RemindersNavigation from './pages/RemindersNavigation';
-import LoginNavigation from './pages/LoginNavigation';
+import DashBoardNavigation from './pages/DashBoardNavigation/DashBoardNavigation';
+import FinderNavigation from './pages/FinderNavigation/FinderNavigation';
+import ChatNavigation from './pages/ChatNavigation/ChatNavigation';
+import CalendarNavigation from './pages/CalendarNavigation/CalendarNavigation';
+import RemindersNavigation from './pages/RemindersNavigation/RemindersNavigation';
+import LoginNavigation from './pages/LoginNavigation/LoginNavigation';
 
 const isWeb = Platform.OS === 'web';
 const Tab = createBottomTabNavigator();
