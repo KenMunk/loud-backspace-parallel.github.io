@@ -10,11 +10,11 @@ export default function RoommateCard(){
 	return(
 	
 		<View style={ PageLayouts.mainContentItem}>
-			<Card style={{width: '100%', height: 100}}>
+			<Card style={{width:'100%', height: 100}}>
 				{
 				//*
 				<RoommateCardTitle 
-				img="https://picsum.photos/200"
+				img="./placeholder_user_icon.gif"
 				name="Placeholder Roommate Name"
 				city="Someplace, California"/>
 				//*/
